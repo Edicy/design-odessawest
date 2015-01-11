@@ -53,9 +53,9 @@
                               {{ "author" |lc }}: {{ article.author.name }} - {{ article.created_at | format_date:"short" }}
                             </div>
 
-                           <div class="excerpt">{% editable article.excerpt %}</div>
+                           <div class="excerpt" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
 
-         {% editable article.body %}
+         <div data-search-indexing-allowed="true">{% editable article.body %}</div>
          
          {% if editmode %}
             <div class="cfx article-tags">
