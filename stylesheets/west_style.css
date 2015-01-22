@@ -308,6 +308,17 @@ background: #ffffff;
   #navmenu .submenu li a.active {
     color: #971B1B;
   }
+
+  #navmenu .submenu li.vg-menu-btn {
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-left: 10px;
+  }
+
+  #navmenu .submenu li.vg-menu-btn:last-child {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
   
 /* edicy */
 
